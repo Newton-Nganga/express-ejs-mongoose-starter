@@ -1,3 +1,16 @@
+after cloning the repo do:npm install
+steps to make changes
+-------------------------------------------------------------------------------------------
+step 1: make changes to the db.js file and enter your creadentials
+step 2: visit the folder models and edit the model.js file by adding your database schemas and export them
+step 3: visit the routers.js and handle the users interaction with the db
+step 4: Add all your html files in the folder /views ensurethey have extension .ejs
+step 5: Change the src of the images to /static/images/[filename]
+step 6:Dump all your images into the folder /public/images
+step 7:Put all your css files into the folder /public/css and link them as href="/static/css/[stylesheet file name]"
+
+
+
 first create the project folder and initialize the project
 i.e > mkdir <dirname> && npm init -y
 install express,ejs,nodemon,mysql,body-parser modules
